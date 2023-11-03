@@ -53,6 +53,10 @@ img{
     /* width: 100%;
     height: auto; */
 }
+a{
+    text-decoration: none;
+}
+
 /* ↑ css reset */
 /* 頂端bar */
 .wrap{
@@ -72,9 +76,8 @@ img{
     vertical-align: middle;
     margin-right: 3px;
 }
-a{
-    text-decoration: none;
-}
+
+
 /* 表頭 */
 .header{
     display: flex;
@@ -82,7 +85,7 @@ a{
     background-color: white;
     align-items: center;
     padding: 10px 15px;
-    box-shadow: 0px 1px 3px gray;
+    box-shadow:  0px 2px 3px rgb(176, 176, 176);
 
 }
 .header h1 a{
@@ -99,6 +102,7 @@ a{
 }
 .menu li{
     padding: 0px 5px;
+    
 }
 .menu li a{
     color: #00cd99;;
@@ -108,13 +112,23 @@ a{
     margin: 20px 5px;
     text-align: center;
 }
-.container>ul{
+.container > ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
-.container ul li{
+.container > ul > li{
     width: 300px;
     margin: 20px 0;
+    box-shadow: 0px 2px 3px rgb(176, 176, 176);
+    padding: 30px 10px;
+    line-height: 1.5;
+}
+h4{
+    margin: 5px 0;
+    font-weight: bold;
+}
+.Jquery,.list-style{
+    text-align: left;
 }
 
