@@ -49,7 +49,6 @@ table {
 *,*::before,*::after{
     box-sizing: border-box;
 }
-
 a{
     text-decoration: none;
 }
@@ -72,7 +71,6 @@ i{
     padding: 5px;
     margin-right: 10px;
 } 
-
 .bar li a{
     color: #00cd99;
 }
@@ -137,7 +135,6 @@ i{
     margin: auto;
     display: block;
 }
-
 h4{
     margin: 5px 0;
     font-weight: bold;
@@ -170,7 +167,4 @@ h4{
     .item{
         width: 80%;
     }
-
-    
-   
 }
