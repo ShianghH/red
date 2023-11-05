@@ -104,12 +104,15 @@ i{
 .menu li{
     padding: 5px 15px;
 }
+/* (transparent為透明質) */
 .menu li a{
     color: #00cd99;
     font-weight: bold;
     display: block;
     height: 100%;
+    border-bottom: 3px solid transparent;
 }
+
 .menu li a:hover{
     color: #015c45;
     border-bottom: 3px solid #015c45;
@@ -118,7 +121,7 @@ i{
 .container{
     margin: 20px 0px;
 }
-.container > ul{
+.container{
     display: flex;
     justify-content: space-evenly;
     
@@ -160,7 +163,7 @@ h4{
     .header h1 a{
         margin-bottom: 20px;
     }
-    .container > ul{
+    .container{
         flex-direction: column;
         align-items: center;
     }
